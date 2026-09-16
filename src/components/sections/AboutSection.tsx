@@ -16,7 +16,7 @@ export const AboutSection: React.FC = () => {
     },
     {
       icon: Code,
-      label: '200+ DSA Solved',
+      label: '300+ DSA Solved',
       sub: '5-Star HackerRank (C++)',
     },
     {

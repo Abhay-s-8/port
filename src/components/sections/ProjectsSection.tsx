@@ -99,7 +99,7 @@ const ACHIEVEMENTS = [
   {
     icon: Trophy,
     title: '5-Star HackerRank Badge (C++)',
-    desc: 'Solved 200+ Data Structures & Algorithms problems primarily using Modern C++ with a focus on optimal complexity.',
+    desc: 'Solved 300+ Data Structures & Algorithms problems primarily using Modern C++ with a focus on optimal complexity.',
   },
   {
     icon: Award,
