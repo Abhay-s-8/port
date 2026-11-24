@@ -1,11 +1,17 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import LiveProjectButton from '../LiveProjectButton';
-import { CheckCircle2, Terminal } from 'lucide-react';
+import { CheckCircle2, Terminal, Github } from 'lucide-react';
 import ProjectMockup from './ProjectMockup';
 
 export interface ProjectData {
-  id: 'sarkar-seva' | 'cultural-board' | 'newsmaster-ai';
+  id:
+    | 'sarkar-seva'
+    | 'cultural-board'
+    | 'newsmaster-ai'
+    | 'Siya-3D AI mock interview'
+    | 'infomind-ai-enterprise'
+    | 'VIRAAT';
   number: string;
   name: string;
   category: string;
@@ -67,6 +73,17 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, totalC
           </div>
 
           <div className="flex items-center gap-3 self-start sm:self-auto">
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full border border-white/20 text-[#D7E2EA] text-xs font-semibold uppercase tracking-wider hover:bg-white/10 transition-colors"
+              >
+                <Github className="w-3.5 h-3.5" />
+                <span>Code</span>
+              </a>
+            )}
             <LiveProjectButton href={project.link} label="Live Demo" showIcon />
           </div>
         </div>

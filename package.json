@@ -24,6 +24,17 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3",
     "vite": "^6.1.1"
-  }
+  },
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhay-s-8/port.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhay-s-8/port/issues"
+  },
+  "homepage": "https://github.com/Abhay-s-8/port#readme",
+  "description": ""
 }
-
