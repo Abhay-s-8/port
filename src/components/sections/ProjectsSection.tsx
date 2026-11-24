@@ -68,102 +68,6 @@ const FEATURED_PROJECTS: ProjectData[] = [
       'Git Branching',
     ],
   },
-  {
-    id: 'VIRAAT',
-    number: '03',
-    name: 'VIRAAT — Multi-Rail Fraud Defense',
-    category: 'Adversarial AI & FinTech',
-    date: 'Feb 2026',
-    link: 'https://github.com/Abhay-s-8/VIRAAT',
-    github: 'https://github.com/Abhay-s-8/VIRAAT',
-    bullets: [
-      'Architected a closed-loop adversarial red-team/blue-team immunity platform defending 12 active payment rails (FedNow, UPI, SWIFT, SEPA) under sub-15ms scoring latency.',
-      'Engineered a 7-layer defense matrix combining deterministic invariants, 232 zero-leak causal GBDT features, tri-plane perception, and temporal graph neural networks.',
-      'Implemented conformal prediction providing mathematically guaranteed 99.0% fraud coverage while maintaining a strict industrial 0.1% false-positive rate (FPR).',
-      'Integrated MAP-Elites quality-diversity evolutionary adversarial engine with a 6-slot typed grammar generating 15,271 verified synthetic attack vectors for zero-day self-healing.',
-    ],
-    tech: [
-      'FastAPI',
-      'Python',
-      'Temporal GNN',
-      'Conformal Prediction',
-      'GBDT',
-      'MAP-Elites',
-      'PU Learning',
-    ],
-  },
-  {
-    id: 'infomind-ai-enterprise',
-    number: '04',
-    name: 'InfoMind AI Enterprise',
-    category: 'AI/ML & Grounded RAG',
-    date: 'Feb 2026',
-    link: 'https://github.com/Abhay-s-8/infomind-ai-enterprise',
-    github: 'https://github.com/Abhay-s-8/infomind-ai-enterprise',
-    bullets: [
-      'Engineered an enterprise information management and retrieval platform with staged document ingestion (PDF, DOCX, TXT, CSV, XLSX) and SHA-256 deduplication.',
-      'Trained scikit-learn classifiers (TF-IDF + Logistic Regression vs Linear SVM) with versioned models, held-out evaluation metrics, and human review queues.',
-      'Implemented hybrid search combining Qdrant dense vector similarity (Nomic Embed) with BM25 keyword matching, category filtering, and date range facets.',
-      'Built a grounded RAG assistant utilizing local LLaMA 3.2 via Ollama, featuring an evidence-sufficiency gate, injection defenses, and Server-Sent Events (SSE) streaming answers.',
-    ],
-    tech: [
-      'FastAPI',
-      'Python',
-      'Qdrant',
-      'scikit-learn',
-      'Ollama / LLaMA 3.2',
-      'React.js',
-      'PostgreSQL',
-      'Alembic',
-    ],
-  },
-  {
-    id: 'sarkar-seva',
-    number: '05',
-    name: 'Sarkar Seva -- Gov Form Tool',
-    category: 'AI & Multilingual OCR',
-    date: 'Jan 2026',
-    link: 'https://sarkarseva.vercel.app',
-    github: 'https://github.com/Abhay-s-8',
-    bullets: [
-      'Built a multilingual web application enabling users to scan or upload government forms and translate them over 10 Indian languages.',
-      'Integrated OpenRouter API for OCR-based text extraction from uploaded images and camera-captured inputs.',
-      'Engineered a REST API backend with endpoints for extraction, translation, field detection, and PDF generation.',
-      'Implemented dynamic form field rendering and downloadable translated text files.',
-    ],
-    tech: [
-      'React.js',
-      'Node.js',
-      'Express.js',
-      'Anthropic Claude API',
-      'OpenRouter API',
-      'HTML5/CSS3',
-      'JavaScript',
-    ],
-  },
-  {
-    id: 'newsmaster-ai',
-    number: '06',
-    name: 'NewsMaster AI Platform',
-    category: 'AI & News Intelligence',
-    date: 'May 2026',
-    link: 'https://newsmaster-ai.vercel.app',
-    github: 'https://github.com/Abhay-s-8',
-    bullets: [
-      'Built an AI-powered news platform that aggregated 20–30 articles from multiple sources using RSS feeds.',
-      'Integrated Gemini via OpenRouter API for UPSC-focused summarization and insight extraction.',
-      'Engineered automated pipelines for article parsing, deduplication, keyword extraction, and category-wise filtering.',
-    ],
-    tech: [
-      'React.js',
-      'Node.js',
-      'Express.js',
-      'Google Gemini',
-      'OpenRouter API',
-      'RSS Parser',
-      'JavaScript',
-    ],
-  },
 ];
 
 const CERTIFICATIONS = [
@@ -231,7 +135,7 @@ export const ProjectsSection: React.FC = () => {
             Flagship Case Studies
           </h3>
           <p className="text-white/60 text-sm sm:text-base font-light mt-3 max-w-2xl mx-auto">
-            Deep-dive into flagship production works — featuring SIYA (3D AI Career Guidance Mentor), Cultural Board Platform, VIRAAT Multi-Rail Fraud Defense, and InfoMind AI Enterprise.
+            Deep-dive into flagship production works — featuring SIYA (3D AI Career Guidance Mentor) and AIT Pune Cultural Board Platform.
           </p>
         </FadeIn>
 
